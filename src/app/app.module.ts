@@ -2,24 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AlumnosComponent } from './alumnos/listadoAlumnos/alumnos.component';
-import { DetalleAlumnoComponent } from './alumnos/detalle-alumno/detalle-alumno.component';
 import {MatTableModule} from "@angular/material/table";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
+import { MatCardModule } from '@angular/material/card';
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AlumnosComponent,
-    DetalleAlumnoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     MatTableModule,
-    MatTableModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatSlideToggleModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

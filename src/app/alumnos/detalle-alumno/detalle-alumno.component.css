@@ -1,0 +1,14 @@
+.container{
+
+}
+mat-card {
+  background-color: lightgoldenrodyellow;
+  color: darkslategrey;
+  width: 60%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+div > img {
+  width: 100%;
+  border-radius: 50%;
+}

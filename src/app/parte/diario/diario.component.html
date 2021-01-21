@@ -1,0 +1,8 @@
+<h2>Parte diario de asistencia de {{ curso }}</h2>
+<h4>Marca las asistencias de los alumnos</h4>
+<mat-selection-list>
+  <mat-list-option *ngFor="let alumno of alumnos">
+    {{alumno.nombre}}
+  </mat-list-option>
+</mat-selection-list>
+<button mat-button (click)="goBack()">Volver</button>
